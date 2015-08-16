@@ -1,0 +1,39 @@
+Android Fundamentals Project Self-Evaluation
+
+Instructions: Once you’ve completed your Final Project, please respond to the questions below. This is a chance for you to briefly explain to the grader your thought-process during development.  Once you are done, include this with the source code and accompanying files you are submitting.  Then, give yourself a pat on the back for making a great app!
+Questions about Required Components
+Permissions
+Please elaborate on why you chose the permissions in your app.
+
+
+Content Provider
+What is the name of your Content Provider, and how is it backed? (For example, Sunshine’s Content Provider is named WeatherProvider backed by an SQLite database, with two tables: weather and location.)
+
+
+What backend does it talk to? (For example, Sunshine talks to the OpenWeatherMap API.)
+
+
+If your app uses a SyncAdapter, what is it called? What mechanism is used to actually talk over the network? (For example, Sunshine uses HttpURLConnection to talk to the network, but your app may use a third-party library to do the talking.)
+
+
+What loaders/adapters are used?
+
+
+User/App State
+Please elaborate on how/where your app correctly preserves and restores user or app state. (See rubric for examples on this question)
+
+
+Questions about Optional Components
+Answer the questions that are applicable to your final project
+Notifications
+Please elaborate on how/where you implemented Notifications in your app:
+
+ShareActionProvider
+Please elaborate on how/where you implemented ShareActionProvider:
+
+Broadcast Events
+Please elaborate on how/where you implemented Broadcast Events:
+
+Custom Views
+Please elaborate on how/where you implemented Custom Views:
+
