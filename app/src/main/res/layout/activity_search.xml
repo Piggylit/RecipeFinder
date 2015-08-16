@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.android.recipefinder.SearchActivity">
+
+    <!-- Api progress -->
+    <ProgressBar android:id="@+id/progress_view" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:layout_marginTop="2mm"
+        android:id="@+id/listlayout"
+        android:layout_below="@+id/saveFavs"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Number of results:"
+            android:id="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:id="@+id/recipesList"
+            android:layout_height="fill_parent"
+            android:dividerHeight="5px"
+            android:choiceMode="multipleChoice"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"/>
+
+    </LinearLayout>
+
+</LinearLayout>
